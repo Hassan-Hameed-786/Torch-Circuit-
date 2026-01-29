@@ -1,35 +1,69 @@
-Torch PCB Project (EasyEDA)
+##  Torch PCB Circuit (CR2032 Based)
 
-This project is a simple torch (LED light) circuit designed using EasyEDA. It demonstrates the complete workflow of electronic design, including schematic creation, PCB layout, and 3D visualization.
+This project is a **simple torch (LED light) circuit** designed using **EasyEDA**. It is powered by a **CR2032 coin cell battery** and uses a **push-button switch** to control three LEDs. The project is intended for **students and beginners** to understand basic electronics and PCB design.
 
-The circuit is powered by a CR2032 coin cell and uses a push-button switch to control three LEDs. Each LED is connected through a current-limiting resistor to ensure safe operation. The PCB layout is compact and suitable for beginner-level hardware projects.
+---
 
-Project Features
+## Project Overview
 
-Designed schematic using EasyEDA
+The torch circuit consists of three LEDs connected in parallel, each with its own **current-limiting resistor** to ensure safe operation. A push-button switch is used to supply power from the coin cell battery to the LEDs.
 
-Single-layer PCB layout
+The complete design includes the **schematic, PCB layout, and 3D PCB model**, demonstrating the full electronic design workflow.
 
-CR2032 battery-powered design
+---
 
-Push-button controlled LEDs
+## How It Works (Simple Explanation)
 
-Proper resistor selection for LED protection
+- The CR2032 battery supplies power to the circuit  
+- Pressing the push button completes the circuit  
+- Current flows through resistors to the LEDs  
+- LEDs turn ON and produce light  
+- Releasing the button turns the LEDs OFF  
 
-3D PCB model for visualization
+---
 
- Tools Used
+## Main Components
 
-EasyEDA (Schematic, PCB layout, and 3D view)
+- CR2032 Coin Cell Battery Holder  
+- Push-Button Switch  
+- 5mm LEDs  
+- Current-Limiting Resistors  
+- Single-layer PCB  
 
- Learning Outcomes
+---
 
-Basic electronic circuit design
+## Project Files
 
-PCB routing and component placement
+- `Schematic/` – Circuit diagram (PDF)  
+- `PCB/` – PCB layout (PDF)  
+- `3D_Model/` – 3D PCB view images  
+- `Gerber/` – PCB manufacturing files  
 
-Understanding of power distribution and grounding
+---
 
-Converting a schematic into a manufacturable PCB
+## Tools Used
 
-This project was developed as part of an academic learning exercise and is suitable for beginners exploring PCB and hardware design
+- EasyEDA (Online schematic, PCB layout, and 3D viewer)
+
+---
+
+## Applications
+
+- Mini torch / LED light  
+- Electronics learning projects  
+- PCB design practice  
+- Beginner hardware projects  
+
+---
+
+## License
+
+This project is released under the **MIT License**.  
+You are free to use, modify, and share it with proper credit.
+
+---
+
+**Designed by:**  
+Hassan Hameed  
+Mechatronics Engineering Student, Air University  
+For academic learning and practical implementation
